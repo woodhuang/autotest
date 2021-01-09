@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="groupsSuite">
+    <test name="allTest">
+        <classes>
+            <class name="com.omp.testng.groups.GroupsOnClass1" />
+            <class name="com.omp.testng.groups.GroupsOnClass2" />
+            <class name="com.omp.testng.groups.GroupsOnClass3" />
+        </classes>
+    </test>
+
+    <test name="onlyStuTest">
+        <groups>
+            <run>
+                <include name="ttt" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.omp.testng.groups.GroupsOnClass1" />
+            <class name="com.omp.testng.groups.GroupsOnClass2" />
+            <class name="com.omp.testng.groups.GroupsOnClass3" />
+        </classes>
+    </test>
+
+</suite>
+

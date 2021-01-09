@@ -1,0 +1,37 @@
+[
+  {
+    "description": "This is the first mock sample...",
+    "request": {
+      "uri":"/demo"
+    },
+    "response": {
+      "text": "Hello, 这是第一个mock and moco 使用示例. 让我们开始吧."
+    }
+
+  },
+  {
+    "description": "Get Request Sample!",
+    "request": {
+      "uri":"/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "Hello, 这是个没有参数的Get请求."
+    }
+  },
+  {
+    "description": "带参数的Get请求",
+    "request": {
+      "uri": "/getparamdemo",
+      "method": "get",
+      "queries": {
+        "name": "woodhuang",
+        "age": "25"
+      }
+    },
+    "response": {
+      "text": "你好，woodhuang同学?"
+    }
+  }
+
+]

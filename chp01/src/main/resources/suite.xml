@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="firstSuite">
+    <test name="loginTest">
+        <classes>
+            <class name="com.omp.testng.suite.SuiteConfig" />
+            <class name="com.omp.testng.suite.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="payTest">
+        <classes>
+            <class name="com.omp.testng.suite.SuiteConfig" />
+            <class name="com.omp.testng.suite.PayTest" />
+        </classes>
+    </test>
+
+</suite>

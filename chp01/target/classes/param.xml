@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="paramSuite">
+    <test name="paramTest">
+        <classes>
+            <parameter name="name" value="zhangsan" />
+            <parameter name="age" value="20" />
+            <class name="com.omp.testng.param.ParamTest" />
+        </classes>
+
+    </test>
+</suite>
+

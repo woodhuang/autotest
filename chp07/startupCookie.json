@@ -1,0 +1,37 @@
+[
+  {
+    "description": "Get with cookies",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "Get request with cookies...."
+    }
+  },
+  {
+    "description": "Post with cookies",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "wood huang",
+        "age": "30"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "woodhuang": "success",
+        "code": 1
+      }
+    }
+  }
+
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "description": "Redirect Request Sample",
+    "request":{
+      "uri": "/redirect"
+    } ,
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "Redirect to my Path",
+    "request": {
+      "uri": "/redirect/tomypath"
+    },
+    "redirectTo": "/redirect/mypath"
+  },
+  {
+    "description": "The redirect new path",
+    "request": {
+      "uri": "/redirect/mypath"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=utf-8"
+      },
+      "text": "这是我的重定向目的地址 Hello World."
+    }
+  }
+
+]
